@@ -34,7 +34,7 @@ npx react-native run-ios #iOS
 - [x] Adicionar um curriculo a um aluno.
 - [x] Adicionar pretensões a um curriculo.
 - [x] Mostrar empresas interessadas para aluno.
-- [x] Perfis de alunos de alunos e sua pretensão.
+- [x] Perfis de alunos e sua pretensão.
 - [x] Blogs com noticias e dicas para os alunos.
 
 ### Tecnologias Utilizadas
@@ -43,7 +43,7 @@ A tecnologia escolhida foi [React Native](https://reactnative.dev/), que é uma 
 
 ### Repositórios
 
-No desenvolvimento dessa solução dividimos em 3 repositórios sendo um repositório para a API, um repositório para o frontend e um repositório para a documentação produzida no evento. Os links se encontram abaixo:
+No desenvolvimento dessa solução dividimos em 3 repositórios sendo um repositório para a API, um repositório para o Mobile(frontend) e um repositório para a documentação produzida no evento. Os links se encontram abaixo:
 
 [API](https://github.com/GianMantuan/hackathon-ccr-api) | [FrontEnd](https://github.com/GianMantuan/hackathon-ccr-mobile) | [Documentação](https://github.com/GianMantuan/hackathon-ccr-documentation)
 
