@@ -22,13 +22,17 @@ yarn start
 ``` 
 ### Funcionalidades
 
-- [ ] Cadastro de acordo com o estado e cidade.
-- [ ] Criar uma vaga para estagio|emprego
-- [ ] Adicionar um curriculo a um usuário
-- [ ] Review sobre o curriculo do usuário
-- [ ] Adicionar pretensões a um curriculo
+- [x] Cadastro de usuario de acordo com o estado e cidade.
+- [x] Cadastro de empresa de acordo com o estado e cidade.
+- [x] Adicionar um curriculo a um usuário.
+- [x] Adicionar pretensões a um curriculo.
+- [x] Mostrar empresas interessadas para usuario.
+- [x] Perfis de alunos de alunos e sua pretensão.
+- [x] Blogs com noticias e dicas para os usuarios.
 
 ### Tecnologias Utilizadas
+
+A tecnologia escolhida foi [React Native](https://reactnative.dev/), que é uma forma de programar para mobile englobando tanto usuarios IOS quanto para android, além de ser um tecnologia recente e com uma grande comunidade ativa.
 
 ### Repositórios
 
