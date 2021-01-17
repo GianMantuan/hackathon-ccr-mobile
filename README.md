@@ -1,6 +1,8 @@
-# Emprega.ai - API
 
-API da solução emprega.ai, desenvolvida durante o segundo Hackathon CCR.
+![logo](/home/ricardo/Downloads/logoazul.png)
+# Emprega.ai - Mobile
+
+ Emprega.ai versão mobile, desenvolvida durante o segundo Hackathon CCR.
 
 ### Sobre a solução:
 
@@ -12,23 +14,28 @@ Executar uma vez para instalar as dependências:
 ```
 yarn install
 ```
-Compilar o código de TypeScript para JavaScript 
+
+Executar o Metro Bundler:
 ```
-yarn build
+npx react-native start
 ```
-Rodar a API com:
+
+Compilar e executar o código em um emulador/dispositivo:
 ```
-yarn start
+npx react-native run-android #Android
+```
+```
+npx react-native run-ios #iOS
 ``` 
 ### Funcionalidades
 
-- [x] Cadastro de usuario de acordo com o estado e cidade.
-- [x] Cadastro de empresa de acordo com o estado e cidade.
-- [x] Adicionar um curriculo a um usuário.
+- [x] Cadastro de aluno e seu perfil.
+- [x] Cadastro de empresa.
+- [x] Adicionar um curriculo a um aluno.
 - [x] Adicionar pretensões a um curriculo.
-- [x] Mostrar empresas interessadas para usuario.
+- [x] Mostrar empresas interessadas para aluno.
 - [x] Perfis de alunos de alunos e sua pretensão.
-- [x] Blogs com noticias e dicas para os usuarios.
+- [x] Blogs com noticias e dicas para os alunos.
 
 ### Tecnologias Utilizadas
 
