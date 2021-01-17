@@ -129,7 +129,7 @@ export default function ListAlunosPage() {
               block
               style={{marginTop: 20, marginHorizontal: 15}}
               onPress={() => {
-                alunoDados.empresa.push({_id: '60046c1452a60541ac6df2b4'});
+                alunoDados.empresa.push({_id: '600494c0725237c2e81e58de'});
 
                 updateAluno(alunoDados._id, alunoDados);
                 setVisible(false);

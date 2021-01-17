@@ -21,8 +21,8 @@ export default function ListaEmpresasPage() {
 
   useEffect(() => {
     async function empresas() {
-      // const empresas = await getAlunoEmpresas('60046ad952a60541ac6df2b2');
-      // setEmpresas(empresas);
+      const empresas = await getAlunoEmpresas('600486878dc28874a4aad20c');
+      setEmpresas(empresas);
     }
     empresas();
   }, [navigation]);
