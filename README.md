@@ -1,5 +1,5 @@
 
-![logo](/home/ricardo/Downloads/logoazul.png)
+![Emprega.ai - logo](./assets/logoazul.png)
 # Emprega.ai - Mobile
 
  Emprega.ai versão mobile, desenvolvida durante o segundo Hackathon CCR.
