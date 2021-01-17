@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "description": "Ensino Fundamental"
+  },
+  {
+    "id": 1,
+    "description": "Ensino Médio"
+  },
+  {
+    "id": 2,
+    "description": "Curso Técnico"
+  },
+  {
+    "id": 3,
+    "description": "Ensino Superior"
+  }
+]

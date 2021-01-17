@@ -29,6 +29,7 @@ import {saveAluno} from '../../service/api';
 const {height} = Dimensions.get('screen');
 
 export default function CurriculoPage() {
+  const [loading, setLoading] = useState(false);
   const [expVisible, setExpVisible] = useState(false);
   const [crtVisible, setCrtVisible] = useState(false);
   const [estado, setEstado] = useState([]);
@@ -63,7 +64,7 @@ export default function CurriculoPage() {
   }, [curso]);
 
   return (
-    <ScrollView contentContainerStyle={{minHeight: height}}>
+    <ScrollView contentContainerStyle={{minHeight: height + 50}}>
       {/* FORMULARIO PERFIL DO ALUNO */}
 
       <Container>
@@ -99,6 +100,15 @@ export default function CurriculoPage() {
                 value={curriculo.telefone}
                 onChangeText={(val) =>
                   setCurriculo({...curriculo, telefone: val})
+                }
+              />
+            </Item>
+            <Item floatingLabel>
+              <Label>Pretensão</Label>
+              <Input
+                value={curriculo.pretensao}
+                onChangeText={(val) =>
+                  setCurriculo({...curriculo, pretensao: val})
                 }
               />
             </Item>
@@ -225,6 +235,7 @@ export default function CurriculoPage() {
             </List>
           </Form>
           <Button
+            info
             block
             style={{marginTop: 30, marginHorizontal: 15}}
             onPress={() => saveAluno(curriculo)}>
@@ -328,6 +339,7 @@ export default function CurriculoPage() {
             </Item>
           </Form>
           <Button
+            info
             block
             style={{marginTop: 20, marginHorizontal: 15}}
             onPress={() => {

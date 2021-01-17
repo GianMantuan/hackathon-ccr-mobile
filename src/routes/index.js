@@ -8,9 +8,19 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 
+import LoginPage from '../pages/Login/LoginPage';
+
+// ALUNO PAGES
 import CurriculoPage from '../pages/Aluno/CurriculoPage';
+import ListaEmpresasPage from '../pages/Aluno/ListaEmpresasPage';
+import ListaPostagemBlogPage from '../pages/Aluno/ListaPostagemBlogPage';
+
+// EMPRESA PAGES
 import PerfilEmpresaPage from '../pages/Empresa/PerfilEmpresaPage';
-import LoginPage from '../pages/Login/LognPage';
+import ListaAlunosPage from '../pages/Empresa/ListaAlunosPage';
+
+// BLOG PAGES
+import BlogPage from '../pages/Blog/BlogPage';
 
 function Aluno() {
   return (
@@ -31,8 +41,8 @@ function Aluno() {
         inactiveTintColor: 'gray',
       }}>
       <Tab.Screen name="Currículo" component={CurriculoPage} />
-      <Tab.Screen name="Empresas interessadas" component={CurriculoPage} />
-      <Tab.Screen name="Blog" component={CurriculoPage} />
+      <Tab.Screen name="Empresas interessadas" component={ListaEmpresasPage} />
+      <Tab.Screen name="Blog" component={ListaPostagemBlogPage} />
     </Tab.Navigator>
   );
 }
@@ -54,7 +64,7 @@ function Empresa() {
         inactiveTintColor: 'gray',
       }}>
       <Tab.Screen name="Perfil" component={PerfilEmpresaPage} />
-      <Tab.Screen name="Lista de Alunos" component={PerfilEmpresaPage} />
+      <Tab.Screen name="Lista de Alunos" component={ListaAlunosPage} />
     </Tab.Navigator>
   );
 }

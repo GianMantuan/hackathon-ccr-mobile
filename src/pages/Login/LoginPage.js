@@ -1,9 +1,9 @@
 import React from 'react';
-import {View, Text, StyleSheet, Dimensions} from 'react-native';
+import {View, Text, StyleSheet, Dimensions, Image} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 import {Button} from 'native-base';
 
-const {height} = Dimensions.get('screen');
+const {height, width} = Dimensions.get('screen');
 
 export default function LoginPage() {
   const navigation = useNavigation();
@@ -11,6 +11,11 @@ export default function LoginPage() {
   return (
     <View style={styles.Container}>
       <View style={styles.Content}>
+        <Image
+          resizeMode="contain"
+          style={{width: width - 50}}
+          source={require('../../assets/logo.png')}
+        />
         <Button
           info
           block

@@ -25,6 +25,7 @@ export default function PerfilEmpresaPAge() {
     CNPJ: '',
     email: '',
     telefone: '',
+    pretensao: '',
     estado: '',
     cidade: '',
     bairro: '',
@@ -114,6 +115,7 @@ export default function PerfilEmpresaPAge() {
           </Item>
         </Form>
         <Button
+          info
           block
           style={{marginTop: 30, marginHorizontal: 15}}
           onPress={() => saveEmpresa(empresa)}>
