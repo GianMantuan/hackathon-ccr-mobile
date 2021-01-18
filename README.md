@@ -6,8 +6,7 @@
 
 ### Sobre a solução:
 
-Nossa solução visa reduzir a distância entre a empresa e potênciais estagiários, jovens aprendizes ou empregados.
-A solução faz uma seleção de acordo com as pretensões e curriculo cada vaga.
+Durante o Hackathon desenvolvemos uma solução que visa trazer oportunidades de emprego e estagio para estudantes de ensino médio e universitários com alguma vulnerabilidade social. Nossa solução visa reduzir a distância entre a empresa e potenciais estagiários, jovens aprendizes ou empregados. Como medida de melhorar a combinatória de currículos para vagas, incluímos as pretensões dos candidatos que serão utilizadas pelos entrevistadores para seleção. A solução é um aplicativo que visa possibilitar capacitação de jovens nas áreas que eles tem maior afinidade.
 
 ### Como rodar:
 Executar uma vez para instalar as dependências:
